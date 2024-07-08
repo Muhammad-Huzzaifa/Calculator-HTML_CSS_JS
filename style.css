@@ -26,11 +26,11 @@ body{
 .buttons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: 20px;
 }
 button{
-    width: 36px;
-    height: 40px;
+    width: 40px;
+    height: 50px;
     background-color: #3FA2F6;
     border: none;
     border-radius: 5px;
@@ -38,6 +38,6 @@ button{
 }
 button:hover{
     background-color: #0F67B1;
-    transform: scale(1.1);
-    transition: 0.6s;
+    transform: scale(1.01);
+    transition: 0.1s;
 }
