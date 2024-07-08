@@ -64,6 +64,15 @@ function clear_() {
 function calculate() {
     number1 = result;
     number2 = parseFloat(document.getElementById("display").innerText);
+    if (count == 0){
+        count++;
+        result = number2;
+        document.getElementById("display").innerText = result;
+        string = result.toString();
+        operator = '';
+        count = 0;
+        return;
+    }
     switch (operator) {
         case '+':
             result = number1 + number2;
